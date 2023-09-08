@@ -11,7 +11,8 @@ const Portfolio = () => {
 
 
     return (
-        <div id="portfolio" className="portfolio-page" >
+        <div className="portfolio-page" >
+            <div id="portfolio"></div>
             <div className="inner-contaner">
                 <Projects />
             </div>

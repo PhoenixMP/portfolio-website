@@ -4,6 +4,10 @@ a {
   cursor: pointer;
 }
 
+body {
+  color: black;
+}
+
 .full-screen-component {
   padding-top: 80px;
   width: 100%;
@@ -40,7 +44,8 @@ a {
 }
 
 #background-2 {
-  background-image: url('/src/images/music-sheet.jpg');
+  background-image: url('/src/images/ai-background.png');
+  filter: hue-rotate(190deg) contrast(70%) brightness(0.95);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
