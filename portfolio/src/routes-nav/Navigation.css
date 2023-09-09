@@ -30,7 +30,7 @@
   font-style: oblique;
   padding-left: 1rem;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2.2vw;
   font-weight: 500;
   cursor: pointer;
 
@@ -57,14 +57,14 @@
 }
 
 .navbar-icons .navbar-icon img {
-  margin: .7rem;
-  height: 2rem;
-  padding: 2px;
+  margin: .1vw;
+  height: 2.3vw;
+  padding: .5vw;
   filter: contrast(30%) sepia(90%) brightness(.8) hue-rotate(290deg);
 }
 
 #email-icon img {
-  height: 2.3rem;
+  height: 2.5vw;
 
 }
 
@@ -75,14 +75,14 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding-right: 1rem;
+  padding-right: 1vw;
 
 }
 
 .navbar-container .nav-items .nav-link {
   text-align: center;
-  margin-left: 4rem;
-  font-size: 1.2rem;
+  margin-left: 3vw;
+  font-size: 1vw;
   text-transform: uppercase;
   color: #4c251c;
 }
@@ -118,8 +118,8 @@
 
 .navbar-container .nav-items .on-home {
   text-align: center;
-  margin-left: 4rem;
-  font-size: 1.2rem;
+  margin-left: 3vw;
+  font-size: 1vw;
   text-transform: uppercase;
   color: #0d3c0b;
   transform: scale(1.2);
@@ -129,8 +129,8 @@
 
 .navbar-container .nav-items .on-portfolio {
   text-align: center;
-  margin-left: 4rem;
-  font-size: 1.2rem;
+  margin-left: 3vw;
+  font-size: 1vw;
   text-transform: uppercase;
   color: #060a81;
   transform: scale(1.2);
@@ -140,11 +140,41 @@
 
 .navbar-container .nav-items .on-about {
   text-align: center;
-  margin-left: 4rem;
-  font-size: 1.2rem;
+  margin-left: 3vw;
+  font-size: 1vw;
   text-transform: uppercase;
   color: #3b3c88;
   transform: scale(1.2);
   border-bottom: .1rem solid #2f3396;
 
+}
+
+@media (max-width: 1200px) {
+
+  .navbar-container .nav-items .on-about,
+  .navbar-container .nav-items .on-portfolio,
+  .navbar-container .nav-items .on-home {
+    margin-left: 3vw;
+    font-size: 2.1vw;
+  }
+
+  .navbar-container .nav-items .nav-link {
+    margin-left: 3vw;
+    font-size: 2.1vw;
+  }
+
+  .navbar-icons .navbar-icon img {
+    margin: .1vw;
+    height: 3vw;
+    padding: .5vw;
+  }
+
+  #email-icon img {
+    height: 3.2vw;
+
+  }
+
+  .navbar-container .navbar-name {
+    font-size: 3vw;
+  }
 }

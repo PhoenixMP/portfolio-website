@@ -12,12 +12,12 @@
 #about {
     position: absolute;
     width: 100%;
-    bottom: 70vh;
+    bottom: 60vh;
 }
 
 #about-content {
 
-    background: linear-gradient(to bottom, #392b51f9, #392b51);
+    background-color: #2a3063;
     /* Solid background color */
     height: 65vh;
     width: 100%;
@@ -28,8 +28,8 @@
 }
 
 .about-text {
-    padding: 10vh 30vh 0 30vh;
-    font-size: 4vh;
+    padding: 10vw 10vw 0 10vw;
+    font-size: 2vw;
 }
 
 #about-content::before {
@@ -40,5 +40,5 @@
     left: 0;
     width: 100%;
     height: 30%;
-    background: linear-gradient(#392b5100, #392b51eb);
+    background: linear-gradient(#10154400, #2a3063);
 }

@@ -1,7 +1,7 @@
 .portfolio-page {
     width: 100%;
     background-color: transparent;
-    padding-bottom: 60vh
+    padding-bottom: 30vh
 }
 
 #portfolio {
@@ -14,7 +14,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    background: linear-gradient(to bottom, #0a2644, rgba(43, 98, 156, 0.704));
+    background: linear-gradient(to bottom, #204d37, #2a3063dc);
+
 }
 
 @media (max-width: 819px) {
@@ -26,10 +27,14 @@
 
 .project1-container {
     max-width: 50%;
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1),
+        0px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .project2-container {
     max-width: 50%;
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1),
+        0px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .project-content {
@@ -48,11 +53,13 @@
 .project-title {
     font-size: 2.8vw;
     color: #eee2dc;
+
 }
 
 .project-description {
     font-size: 1.2vw;
     text-align: center;
+    padding: .8vw;
 }
 
 .project-stack {

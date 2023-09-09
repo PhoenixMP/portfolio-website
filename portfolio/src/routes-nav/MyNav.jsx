@@ -31,11 +31,11 @@ function MyNav() {
         </div>
         <div className="navbar-icons-container">
           <div className="navbar-icons">
-            <a href="https://github.com/PhoenixMP" className="github-icon navbar-icon" title="My GitHub" target="_blank">
-              <img src={githubIcon} />
-            </a>
             <a href="https://www.linkedin.com/in/phoenixpetterson/" className="linkedin-icon navbar-icon" title="My LinkedIn" target="_blank">
               <img src={linkedinIcon} />
+            </a>
+            <a href="https://github.com/PhoenixMP" className="github-icon navbar-icon" title="My GitHub" target="_blank">
+              <img src={githubIcon} />
             </a>
             <a href="mailto:phoenix.petterson@gmail.com" alt="Email" id="email-icon" className="email-icon navbar-icon" title="Email Me">
               <img src={emailIcon} />
@@ -64,7 +64,7 @@ function MyNav() {
             duration={800}
             style={{ textDecoration: 'none' }}
           >
-            Portfolio
+            Projects
           </ScrollLink>
         </div>
         <div className={`${currentPage === "about" ? "on-about" : 'nav-link'}`}>

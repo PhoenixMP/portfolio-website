@@ -34,7 +34,7 @@ function MyRoutes() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       setBgPosition1(scrollPosition * -0.4); // Adjust the multiplier as needed for the first parallax section
-      setBgPosition2((scrollPosition - viewportHeight) * 0.8); // Adjust the multiplier as needed for the second parallax section
+      setBgPosition2((scrollPosition - viewportHeight) * 0.63); // Adjust the multiplier as needed for the second parallax section
     };
 
     window.addEventListener('scroll', handleScroll);
