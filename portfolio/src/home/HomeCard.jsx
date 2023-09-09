@@ -17,11 +17,11 @@ const HomeCard = ({ homeRef }) => {
                 <img src={ProfileImage} alt="Image" className="card-image" />
                 <div className="card-text">
 
-                    <p className="card-name"><b>Phoenix Petterson</b></p>
-                    <p className="card-title">Developer & Engineer</p>
+                    <p className="card-name"><b>Phoenix Petterson</b><span id="home-line"> | </span>
+                        <span className="card-title">  Developer & Engineer </span></p>
                 </div>
-            </div>
 
+            </div>
         </div>
     )
 

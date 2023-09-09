@@ -15,8 +15,8 @@
     background-color: #5c6d5a;
     border-radius: 20px;
     overflow: hidden;
-    height: 21vw;
-    width: 30vw;
+    height: 19vw;
+    width: 29vw;
     padding: 10px;
 }
 
@@ -35,8 +35,7 @@
 }
 
 .card-name {
-
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 1vw;
     line-height: 1pt;
     color: #eee2dc;
@@ -46,5 +45,11 @@
     color: #bab2b5;
     font-size: 1.3vw;
     line-height: 1pt;
+}
 
+@media (max-width: 1000px) {
+    .card {
+        width: 40vw;
+        height: 28vw
+    }
 }

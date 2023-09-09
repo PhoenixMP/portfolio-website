@@ -47,7 +47,7 @@ function MyNav() {
         </div>
       </div>
       <div className="nav-items">
-        <div className={` ${currentPage === "home" ? "on-page" : 'nav-link'}`}>
+        <div className={` ${currentPage === "home" ? "on-home" : 'nav-link'}`}>
           <ScrollLink
             to="home"
             smooth={true}
@@ -57,7 +57,7 @@ function MyNav() {
             Home
           </ScrollLink>
         </div>
-        <div className={` ${currentPage === "portfolio" ? "on-page" : 'nav-link'}`}>
+        <div className={` ${currentPage === "portfolio" ? "on-portfolio" : 'nav-link'}`}>
           <ScrollLink
             to="portfolio"
             smooth={true}
@@ -67,7 +67,7 @@ function MyNav() {
             Portfolio
           </ScrollLink>
         </div>
-        <div className={`${currentPage === "about" ? "on-page" : 'nav-link'}`}>
+        <div className={`${currentPage === "about" ? "on-about" : 'nav-link'}`}>
           <ScrollLink
             to="about"
             smooth={true}

@@ -1,43 +1,7 @@
-:root {
-  --scale-default: 1;
-  --scale-small: .75;
-  --scale-medium: 1;
-  --scale-large: 1.3;
-
-}
-
-.laptop {
-  transform: scale(var(--scale-default));
-}
-
-/* Adjust the scaling factor for different viewport widths */
-@media (max-width: 480px) {
-  .laptop {
-    transform: scale(var(--scale-small));
-    /* Adjust for small screens */
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1800px) {
-  .laptop {
-    transform: scale(var(--scale-medium));
-    /* Adjust for medium screens */
-  }
-}
-
-@media (min-width: 1800px) {
-  .laptop {
-    transform: scale(var(--scale-large));
-    /* Adjust for large screens */
-  }
-}
-
-
 .laptop {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: scale(calc((100vw)));
   width: 439px;
   padding: 50px;
 }

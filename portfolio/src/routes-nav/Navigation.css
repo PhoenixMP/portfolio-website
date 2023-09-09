@@ -82,7 +82,7 @@
 .navbar-container .nav-items .nav-link {
   text-align: center;
   margin-left: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #4c251c;
 }
@@ -95,7 +95,7 @@
 .navbar-container .nav-items .nav-link:after {
   content: '';
   display: block;
-  border-top: 2px solid #4c251c;
+  border-top: 2px solid #311d1a;
   transform: scaleX(0);
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -116,14 +116,35 @@
   -o-transform: scaleX(0.8);
 }
 
-.navbar-container .nav-items .on-page {
+.navbar-container .nav-items .on-home {
   text-align: center;
   margin-left: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  color: #516749;
-  transform: scale(1.1);
-  border-bottom: .1rem solid #000;
+  color: #0d3c0b;
+  transform: scale(1.2);
+  border-bottom: .1rem solid #0d3c0b;
 
+}
+
+.navbar-container .nav-items .on-portfolio {
+  text-align: center;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #060a81;
+  transform: scale(1.2);
+  border-bottom: .1rem solid #14199a;
+
+}
+
+.navbar-container .nav-items .on-about {
+  text-align: center;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #3b3c88;
+  transform: scale(1.2);
+  border-bottom: .1rem solid #2f3396;
 
 }

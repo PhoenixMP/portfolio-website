@@ -1,7 +1,7 @@
 .portfolio-page {
     width: 100%;
-    height: 100vh;
     background-color: transparent;
+    padding-bottom: 60vh
 }
 
 #portfolio {
@@ -11,59 +11,137 @@
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-direction: row;
-    justify-content: space-evenly;
-    height: 60vh;
-    min-width: 1000px;
-    text-align: center;
-    padding-bottom: 1;
-    background: linear-gradient(to bottom, #123c69, rgba(18, 60, 105, 0.704));
+    background: linear-gradient(to bottom, #0a2644, rgba(43, 98, 156, 0.704));
+}
+
+@media (max-width: 819px) {
+    .projects {
+
+        flex-direction: column;
+    }
 }
 
 .project1-container {
-    width: 50vw;
-    min-width: 500px;
+    max-width: 50%;
 }
 
 .project2-container {
-    width: 50vw;
-    min-width: 500px;
+    max-width: 50%;
 }
 
 .project-content {
-    padding: 50px;
-    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-    /* Add this */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #eee2dc;
+    /* To make sure two projects fit side by side with spacing */
+    box-sizing: border-box;
 }
 
-.project-content::after {
-    content: "";
-    position: absolute;
-    top: 60vh;
-    /* Adjust the value as needed for the desired blur height */
-    left: 0;
-    right: 0;
-    height: 10vh;
-    /* Adjust the height as needed */
-    background: linear-gradient(to bottom, rgba(18, 60, 105, 0.704), #123c6900);
-
-
-
-}
-
-.project-right {
-    padding: 50px;
-}
 
 .project-title {
-    font-size: 2vw;
-    padding: 20px;
-    margin: 1vw;
-    line-height: 1pt;
+    font-size: 2.8vw;
     color: #eee2dc;
+}
+
+.project-description {
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.project-stack {
+    font-size: 1.2vw;
+}
+
+
+@media (min-width: 970px) and (max-width: 1700px) {
+    .project-content {
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 820px) and (max-width: 969px) {
+    .project-content {
+        flex-direction: row;
+
+    }
+
+    .projects {
+        flex-direction: column;
+        /* Everything is stacked vertically */
+    }
+
+    .project1-container {
+        max-width: 100%;
+    }
+
+    .project2-container {
+        max-width: 100%;
+    }
+
+    .project-description {
+        font-size: 2.5vw;
+
+    }
+
+    .project-title {
+        font-size: 3vw;
+
+    }
+
+    .project-stack {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (max-width: 819px) {
+    .projects {
+        flex-direction: column;
+        /* Everything is stacked vertically */
+    }
+
+    .project-content {
+        flex-direction: column;
+
+    }
+
+    .project1-container {
+        max-width: 100%;
+    }
+
+    .project2-container {
+        max-width: 100%;
+    }
+
+    .project-description {
+        font-size: 2.5vw;
+
+    }
+
+    .project-title {
+        font-size: 5vw;
+
+    }
+
+    .project-stack {
+        font-size: 2.5vw;
+    }
+
+}
+
+
+.project-top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
