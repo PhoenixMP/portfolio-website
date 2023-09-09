@@ -1,5 +1,6 @@
 .portfolio-page {
     width: 100%;
+    height: 100vh;
     background-color: transparent;
 }
 
@@ -15,29 +16,43 @@
     height: 60vh;
     min-width: 1000px;
     text-align: center;
+    padding-bottom: 1;
+    background: linear-gradient(to bottom, #123c69, rgba(18, 60, 105, 0.704));
 }
 
 .project1-container {
-    background: linear-gradient(to bottom, #508faf, #508fafe7);
     width: 50vw;
     min-width: 500px;
 }
 
 .project2-container {
-    background: linear-gradient(to bottom, rgb(152, 122, 122), rgba(152, 122, 122, 0.955));
-
     width: 50vw;
     min-width: 500px;
 }
 
 .project-content {
     padding: 50px;
-
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
+    /* Add this */
+}
+
+.project-content::after {
+    content: "";
+    position: absolute;
+    top: 60vh;
+    /* Adjust the value as needed for the desired blur height */
+    left: 0;
+    right: 0;
+    height: 10vh;
+    /* Adjust the height as needed */
+    background: linear-gradient(to bottom, rgba(18, 60, 105, 0.704), #123c6900);
+
+
 
 }
 

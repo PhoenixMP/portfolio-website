@@ -6,11 +6,12 @@
   width: 100%;
   height: 100px;
   background: #d2d1bf;
-  color: #130e2f;
+
   position: fixed;
   top: 0;
   z-index: 10000;
   box-sizing: border-box;
+  white-space: nowrap;
 
 }
 
@@ -20,14 +21,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #130e2f;
+  color: #4c251c;
 }
 
 
 
 .navbar-container .navbar-name {
+  font-style: oblique;
+  padding-left: 1rem;
   align-items: center;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 500;
   cursor: pointer;
 
@@ -35,44 +38,64 @@
 
 .navbar-container .navbar-name :hover {
   opacity: 0.8;
+  color: rgb(105, 70, 65);
 }
 
+
 .navbar-container .navbar-icons {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-container .navbar-icons :hover {
   opacity: 0.8;
 }
 
-.navbar-container .navbar-icon {
-  padding: 5px;
+
+.navbar-container .navbar-icons {
+  padding: 10px;
 }
 
+.navbar-icons .navbar-icon img {
+  margin: .7rem;
+  height: 2rem;
+  padding: 2px;
+  filter: contrast(30%) sepia(90%) brightness(.8) hue-rotate(290deg);
+}
+
+#email-icon img {
+  height: 2.3rem;
+
+}
+
+
 .navbar-container .nav-items {
+
   display: flex;
   align-items: center;
-  gap: 3rem;
+  justify-content: space-between;
   list-style: none;
+  padding-right: 1rem;
 
 }
 
 .navbar-container .nav-items .nav-link {
-
-  padding: 10px;
+  text-align: center;
+  margin-left: 4rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  transition: 0.2s;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  color: #130e2f;
+  color: #4c251c;
+}
+
+#resume-link {
+  color: #4c251c;
+
 }
 
 .navbar-container .nav-items .nav-link:after {
   content: '';
   display: block;
-  border-top: 2px solid #DAFFFB;
+  border-top: 2px solid #4c251c;
   transform: scaleX(0);
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -93,8 +116,14 @@
   -o-transform: scaleX(0.8);
 }
 
-.navbar-container .nav-items .login-register {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
+.navbar-container .nav-items .on-page {
+  text-align: center;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #516749;
+  transform: scale(1.1);
+  border-bottom: .1rem solid #000;
+
+
 }

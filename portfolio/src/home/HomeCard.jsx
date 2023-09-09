@@ -7,13 +7,13 @@ import ProfileImage from "../images/profile.png"
 
 
 
-const HomeCard = () => {
+const HomeCard = ({ homeRef }) => {
 
 
 
     return (
-        <div className="card-container">
-            <div className="card">
+        <div className="card-container" >
+            <div className="card" ref={homeRef}>
                 <img src={ProfileImage} alt="Image" className="card-image" />
                 <div className="card-text">
 
