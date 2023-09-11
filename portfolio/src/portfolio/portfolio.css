@@ -14,10 +14,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    background: linear-gradient(to bottom, #204d37, #2a3063dc);
+    background: linear-gradient(to bottom, #204d37, #748f84b7);
     padding: 15px;
     box-sizing: border-box;
-
 
 }
 
@@ -131,6 +130,7 @@
     .projects {
         flex-direction: column;
         /* Everything is stacked vertically */
+        background: linear-gradient(to bottom, #204d37, #748f84);
     }
 
     .project-content {

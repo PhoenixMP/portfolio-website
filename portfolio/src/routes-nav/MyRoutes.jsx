@@ -34,7 +34,7 @@ function MyRoutes() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       setBgPosition1(scrollPosition * -0.4); // Adjust the multiplier as needed for the first parallax section
-      setBgPosition2((scrollPosition - (2 * viewportHeight)) * 0.63); // Adjust the multiplier as needed for the second parallax section
+      setBgPosition2((scrollPosition - viewportHeight) * 0.7); // Adjust the multiplier as needed for the second parallax section
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -46,7 +46,7 @@ function MyRoutes() {
 
   return (
     <div className="website-content">
-      <div className="parallax-container">
+      <div className="parallax-container parallax-1">
         <div id="background-1"
           style={{ transform: `translateY(${bgPosition1}px)` }}></div>
 
