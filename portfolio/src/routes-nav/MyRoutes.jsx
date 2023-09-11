@@ -8,24 +8,26 @@ import PageContext from "./PageContext";
 
 function MyRoutes() {
   const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
   const [bgPosition1, setBgPosition1] = useState(0);
   const [bgPosition2, setBgPosition2] = useState(0);
 
 
   // Function to update the state with the current viewport height
-  const updateViewportHeight = () => {
+  const updateViewport = () => {
     setViewportHeight(window.innerHeight);
-    console.log('Viewport height updated:', viewportHeight, window.innerHeight);
+    setViewportWidth(window.innerWidth);
+
   };
 
   // Attach an event listener to the window's resize event
   useEffect(() => {
-    window.addEventListener('resize', updateViewportHeight);
+    window.addEventListener('resize', updateViewport);
 
     // Clean up the event listener when the component unmounts
     return () => {
-      window.removeEventListener('resize', updateViewportHeight);
+      window.removeEventListener('resize', updateViewport);
     };
   }, []);
 
@@ -34,7 +36,11 @@ function MyRoutes() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       setBgPosition1(scrollPosition * -0.4); // Adjust the multiplier as needed for the first parallax section
-      setBgPosition2((scrollPosition - viewportHeight) * 0.7); // Adjust the multiplier as needed for the second parallax section
+      if (viewportWidth > 900) {
+        setBgPosition2((scrollPosition - viewportHeight) * 0.7); // Adjust the multiplier as needed for the second parallax section
+      } else {
+        setBgPosition2((scrollPosition * .65));
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
