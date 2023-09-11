@@ -78,7 +78,7 @@ function MyNav() {
           </ScrollLink>
         </div>
         <div className='nav-link'>
-          <a style={{ textDecoration: 'none' }} id="resume-link" href='http://localhost:5174/phoenix-petterson-resume.pdf' target="_blank" download='/phoenix-petterson-resume.pdf'>Resume
+          <a style={{ textDecoration: 'none' }} id="resume-link" href='http://localhost:5173/phoenix-petterson-resume.pdf' target="_blank" download='/phoenix-petterson-resume.pdf'>Resume
           </a>
 
         </div>

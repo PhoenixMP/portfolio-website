@@ -28,7 +28,10 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="project-description-container">
-                            <div className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                            <div className="project-description">NoteWorthy is a web-based desktop game inspired by Guitar Hero, reimagined with a virtual piano in place of the guitar. Players must hit corresponding keyboard keys as musical notes descend, earning scores based on the accuracy of their keypresses. The game offers secure user login for score-saving and competition on leaderboards. NoteWorthy interfaces with a custom API that accesses a database of currated note data for 38 songs.
+                                <p>Developed with React, Express.js, and Node.js.</p>
+                                <p> <a className="project-link" href="https://github.com/PhoenixMP/Capstone-2#readme" target="_blank" style={{ color: "white" }}> Learn more</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -40,20 +43,22 @@ const Projects = () => {
                         <div className="project-top-container">
                             <div className="project-top-content">
                                 <div className="project-title">Melodic</div>
-                                <div className="project-stack">JavaScript ~ Python</div>
-                                <a className="project-link" href="https://github.com/PhoenixMP/capstone1#readme" target="_blank">
+                                <div className="project-stack">JavaScript ~ Flask</div>
+                                <a className="project-link" href="https://github.com/PhoenixMP/Capstone-1#readme" target="_blank">
                                     <Laptop image={ProjectImage2} name="screen2" />
                                 </a>
 
                             </div>
                         </div>
                         <div className="project-description-container">
-                            <div className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </div>
+                            <div className="project-description">Melodic is a desktop web application designed for users to jam along to Spotify tracks or create melodies using their computer keyboard. Secure user login enables the saving and sharing of melodies and the favoriting of Spotify tracks. The app fetches and filters Spotify tracks by integrating the Spotify API.
+                                <p>Developed with HTML, CSS, JavaScript, Python, Flask, and PostgreSQL.</p>
+                                <p> <a className="project-link" href="https://github.com/PhoenixMP/Capstone-1#readme" target="_blank" style={{ color: "white" }}> Learn more</a></p></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 
@@ -62,27 +67,3 @@ export default Projects;
 
 
 
-
-
-{/* <div className="projects" >
-<div className="project-container project-1">
-    <a href="https://github.com/PhoenixMP/Capstone-2#readme">
-        <div className="project-content">
-            <div className="project-text">
-                <div className="project-title">Noteworthy</div>
-                <div className="project-text">insert text</div>
-            </div>
-            <Laptop image={ProjectImage1} />
-        </div>
-    </a>
-
-</div>
-<div className="project-container project-2">
-    <a href="https://github.com/PhoenixMP/capstone1#readme">
-        <div className="project-title">Melodic</div>
-        <div className="project-text">insert text</div>
-        <img src={ProjectImage2} alt="Image" className="project-image" />
-    </a>
-</div>
-
-</div> */}

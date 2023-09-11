@@ -20,8 +20,9 @@ const HomeCard = ({ homeRef }) => {
                 <div className="card-text-container">
                     <div className="card-text-1">
                         <div className="card-text-1-content">
-                            <p className="card-name"><b>Phoenix Petterson</b>  </p>
+                            <p className="card-name">Phoenix Petterson  </p>
                             <p className="card-title">  Developer & Engineer </p>
+                            <p className="card-location">  Seattle, WA </p>
                         </div>
                     </div>
                     <div className="card-text-2">

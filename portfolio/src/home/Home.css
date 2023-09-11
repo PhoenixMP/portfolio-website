@@ -18,7 +18,7 @@
         0px 2px 6px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
     height: auto;
-    width: 550px;
+    width: 580px;
     padding: 10px;
 
 }
@@ -54,8 +54,10 @@
 }
 
 .card-name {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 1vw;
+    font-style: oblique;
+    font-family: Prata;
 
     color: #eee2dc;
 }
@@ -63,12 +65,19 @@
 .card-title {
     color: #bab2b5;
     font-size: 20px;
-
+    font-family: Manrope;
 }
+
+.card-location {
+    color: #bab2b5;
+    font-size: 15px;
+    font-family: Manrope;
+}
+
 
 .card a {
     text-decoration: none;
-    color: #bab2b5;
+    color: #e9dae0;
 
 }
 
@@ -78,6 +87,7 @@
     align-items: left;
     padding: 10px;
     font-size: 15px;
+    font-family: Manrope;
 }
 
 .card-text-2 img {
@@ -93,7 +103,7 @@
 
 @media (max-width: 800px) {
     .card {
-        width: 400px;
+        width: 420px;
         height: auto;
     }
 
@@ -107,11 +117,15 @@
     }
 
     .card-name {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .card-title {
         font-size: 15px;
+    }
+
+    .card-location {
+        font-size: 10px
     }
 
 }

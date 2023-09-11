@@ -1,20 +1,32 @@
+.laptop-container {
+  display: flex;
+  justify-content: center;
+}
+
 .laptop {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 439px;
   padding: 50px;
+  margin: 0 auto;
+
 }
 
 .laptop-image {
   height: 100%;
+  padding: 10px;
+}
+
+.front-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .front {
   width: 395px;
-  max-width: 95vw;
   height: 256px;
-  max-height: 95vh;
   margin: auto;
   border-bottom: .5rem solid #212121;
   border-top-left-radius: 20px;
@@ -96,7 +108,9 @@
 }
 
 .bottom {
-  width: 439px;
+  position: relative;
+  width: 410px;
+  left: -35px;
   height: 16px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;

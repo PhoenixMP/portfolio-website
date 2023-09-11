@@ -6,7 +6,9 @@
   width: 100%;
   height: 100px;
   background: #d2d1bf;
-
+  background: linear-gradient(to bottom, #d2d1bf, #d2d1bf 70%, transparent);
+  padding-bottom: 10px;
+  font-family: Prata;
   position: fixed;
   top: 0;
   z-index: 10000;
@@ -33,6 +35,8 @@
   font-size: 2.2vw;
   font-weight: 500;
   cursor: pointer;
+
+  font-family: P;
 
 }
 
@@ -132,9 +136,9 @@
   margin-left: 3vw;
   font-size: 1vw;
   text-transform: uppercase;
-  color: #060a81;
+  color: #196354;
   transform: scale(1.2);
-  border-bottom: .1rem solid #14199a;
+  border-bottom: .1rem solid #196354;
 
 }
 
@@ -143,9 +147,9 @@
   margin-left: 3vw;
   font-size: 1vw;
   text-transform: uppercase;
-  color: #3b3c88;
-  transform: scale(1.2);
-  border-bottom: .1rem solid #2f3396;
+  color: #262761;
+  transform: scale(1.1);
+  border-bottom: .1rem solid #262761;
 
 }
 
@@ -155,12 +159,12 @@
   .navbar-container .nav-items .on-portfolio,
   .navbar-container .nav-items .on-home {
     margin-left: 3vw;
-    font-size: 2.1vw;
+    font-size: 1.6vw;
   }
 
   .navbar-container .nav-items .nav-link {
     margin-left: 3vw;
-    font-size: 2.1vw;
+    font-size: 1.5vw;
   }
 
   .navbar-icons .navbar-icon img {
@@ -175,6 +179,6 @@
   }
 
   .navbar-container .navbar-name {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }

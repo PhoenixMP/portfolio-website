@@ -1,4 +1,40 @@
-/* A simple CSS reset */
+@font-face {
+  font-family: Manrope;
+  src: url(./fonts/Manrope-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CormorantGaramond1;
+  src: url(./fonts/CormorantGaramond-MediumItalic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: CormorantGaramond2;
+  src: url(./fonts/CormorantGaramond-SemiBoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: Prata;
+  src: url(./fonts/Prata-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: P;
+  src: url(./fonts/Parisienne-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 *,
 *::before,
 *::after {
