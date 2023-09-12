@@ -40,9 +40,35 @@
 
 }
 
+.about-resume-container {
+    padding: 10px;
+    margin: 60px;
+}
+
+
+.about-resume {
+    color: white;
+    background-color: #5c6d5a;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.1),
+        0px 2px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.about-resume:hover {
+    background-color: #6b8468;
+}
+
 .about-skills {
-    padding: 100px 0 30px 0;
+    padding: 0 0 50px 0;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -106,4 +132,8 @@
 
 .postgresql {
     border-bottom-color: #336791
+}
+
+footer {
+    font-size: 12px;
 }

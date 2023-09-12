@@ -31,7 +31,7 @@ const HomeCard = ({ homeRef }) => {
                         </a>
                         </div>
                         <div className="card-contact">  <img src={githubIcon} />
-                            <a href="https:/github.com/PhoenixMP" className="card-icon" target="_blank">
+                            <a href="https://github.com/PhoenixMP" className="card-icon" target="_blank">
                                 github.com/PhoenixMP
                             </a>
                         </div>
