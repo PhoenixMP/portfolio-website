@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+
   width: 100%;
   height: 100px;
   background: #d2d1bf;
@@ -19,6 +19,7 @@
 
 
 .navbar-container .navbar-left {
+
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -32,7 +33,7 @@
   font-style: oblique;
   padding-left: 1rem;
   align-items: center;
-  font-size: 2.2vw;
+  font-size: 45px;
   font-weight: 500;
   cursor: pointer;
 
@@ -62,13 +63,13 @@
 
 .navbar-icons .navbar-icon img {
   margin: .1vw;
-  height: 2.3vw;
+  height: 40px;
   padding: .5vw;
   filter: contrast(30%) sepia(90%) brightness(.8) hue-rotate(290deg);
 }
 
 #email-icon img {
-  height: 2.5vw;
+  height: 45px;
 
 }
 
@@ -85,8 +86,8 @@
 
 .navbar-container .nav-items .nav-link {
   text-align: center;
-  margin-left: 3vw;
-  font-size: 1vw;
+  margin-left: 50px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #4c251c;
 }
@@ -122,8 +123,8 @@
 
 .navbar-container .nav-items .on-home {
   text-align: center;
-  margin-left: 3vw;
-  font-size: 1vw;
+  margin-left: 50px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #0d3c0b;
   transform: scale(1.2);
@@ -133,8 +134,8 @@
 
 .navbar-container .nav-items .on-portfolio {
   text-align: center;
-  margin-left: 3vw;
-  font-size: 1vw;
+  margin-left: 50px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #196354;
   transform: scale(1.2);
@@ -144,8 +145,8 @@
 
 .navbar-container .nav-items .on-about {
   text-align: center;
-  margin-left: 3vw;
-  font-size: 1vw;
+  margin-left: 50px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #262761;
   transform: scale(1.1);
@@ -159,12 +160,12 @@
   .navbar-container .nav-items .on-portfolio,
   .navbar-container .nav-items .on-home {
     margin-left: 3vw;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
   }
 
   .navbar-container .nav-items .nav-link {
     margin-left: 3vw;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
   }
 
   .navbar-icons .navbar-icon img {
@@ -179,6 +180,6 @@
   }
 
   .navbar-container .navbar-name {
-    font-size: 4vw;
+    font-size: 4.2vw;
   }
 }
